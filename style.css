@@ -1,0 +1,190 @@
+Add your styles here
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d5dde9;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.top-bar input, .top-bar button {
+    margin: 0 10px;
+}
+
+#city-input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    width: 200px;
+}
+
+#search-btn, #location-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#search-btn:hover, #location-btn:hover {
+    background-color: #007bff;
+}
+
+.weather-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.current-weather {
+    text-align: center;
+    background: #007bff;
+    color: white;
+    padding: 50px;
+    width: 280px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;  
+    margin-right: 16px;  
+}
+
+.current-weather h1 {
+    font-size: 60px;
+    margin: 0;
+    color: #eee1e3;
+}
+
+.current-weather .refresh-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.weather-container {
+    background-color: #007bff;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.weather-item {
+    margin: 10px 0;
+}
+
+.label {
+    font-weight: bold;
+    display: inline-block;
+    width: 250px;
+     
+}
+
+.value {
+    display: inline-block;
+}
+
+
+.map {
+    width: 20px;
+    flex: 1;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 16px;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.day {
+    text-align: center;
+    background-color: #f7f9fc;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: 12%;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+.day p {
+    margin: 5px 0;
+}
+
+.day .date {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 0;
+    border-radius: 10px 10px 10px 10px;
+}
+.day .Temprature {
+   font-size: 13px;
+}
+
+.day .status {
+    font-size: 11px;
+}
+
+/* Styles for login page */
+#login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+}
+
+#login-page h2 {
+    margin-bottom: 20px;
+}
+
+#login-page input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#login-page button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#login-page button:hover {
+    background-color: #0056b3;
+}
+
+/* Add your weather app styles here as previously defined */
